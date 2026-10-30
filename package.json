@@ -1,0 +1,13 @@
+{
+  "name": "web-build-smoke-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zero-dependency production bundle smoke fixture",
+  "license": "MIT",
+  "scripts": {
+    "test": "node dist/check.min.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
